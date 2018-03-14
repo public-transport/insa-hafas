@@ -4,7 +4,8 @@
 	"version": "0.1.0",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"throttle.js"
 	],
 	"keywords": [
 		"nasa",
@@ -25,5 +26,6 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"hafas-client": "^2.4.0"
 	}
 }
