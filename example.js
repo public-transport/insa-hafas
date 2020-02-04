@@ -1,5 +1,6 @@
 'use strict'
 
+const {inspect} = require('util')
 const createHafas = require('.')
 
 const magdeburgNeustadt = '008010226'
@@ -30,6 +31,6 @@ hafas.journeys(magdeburgNeustadt, magdeburgBuckau, {results: 1})
 // }, {results: 10})
 
 .then(data => {
-	console.log(require('util').inspect(data, { depth: null }))
+	console.log(inspect(data, {depth: null, colors: true}))
 })
 .catch(console.error)

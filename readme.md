@@ -6,9 +6,9 @@ This project is actually a thin wrapper around [`hafas-client@5`](https://github
 
 [![npm version](https://img.shields.io/npm/v/insa-hafas.svg)](https://www.npmjs.com/package/insa-hafas)
 [![build status](https://api.travis-ci.org/derhuerst/insa-hafas.svg?branch=master)](https://travis-ci.org/derhuerst/insa-hafas)
-[![dependency status](https://img.shields.io/david/derhuerst/insa-hafas.svg)](https://david-dm.org/derhuerst/insa-hafas)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/insa-hafas.svg)
-[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+![minimum Node.js version](https://img.shields.io/node/v/insa-hafas.svg)
+[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
 [![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 
@@ -24,7 +24,7 @@ npm install insa-hafas
 Check [the docs for `hafas-client@5`](https://github.com/public-transport/hafas-client/tree/5/docs) as well as [its INSA-specific customisations](https://github.com/public-transport/hafas-client/blob/5/p/insa/readme.md).
 
 
-## Getting Started
+## Usage
 
 ```javascript
 const hafas = require('insa-hafas')
@@ -139,16 +139,9 @@ The output will be an array of [`journey` objects in the *Friendly Public Transp
 ```
 
 
-## Similar Projects
+## Related
 
-- [*Friendly Public Transport Format*](https://github.com/public-transport/friendly-public-transport-format#friendly-public-transport-format-fptf) – A format for APIs, libraries and datasets containing and working with public transport data.
-- [`db-hafas`](https://github.com/derhuerst/db-hafas) – JavaScript client for the DB HAFAS API.
-- [`hafas-client`](https://github.com/derhuerst/hafas-client) – JavaScript client for HAFAS mobile APIs.
-- [`hafas-departures-in-direction`](https://github.com/derhuerst/hafas-departures-in-direction#hafas-departures-in-direction) – Pass in a HAFAS client, get departures in a certain direction.
-- [`hafas-collect-departures-at`](https://github.com/derhuerst/hafas-collect-departures-at#hafas-collect-departures-at) – Utility to collect departures, using any HAFAS client.
-- [`hafas-discover-stations`](https://github.com/derhuerst/hafas-discover-stations#hafas-discover-stations) – Pass in a HAFAS client, discover stations by querying departures.
-- [`hafas-rest-api`](https://github.com/derhuerst/hafas-rest-api#hafas-rest-api) – Expose a HAFAS client via an HTTP REST API.
-- [`public-transport-enabler`](https://github.com/schildbach/public-transport-enabler) – Unleash public transport data in your Java project.
+Check [`hafas-client`'s related libs](https://github.com/public-transport/hafas-client/blob/master/readme.md#related).
 
 
 ## Contributing

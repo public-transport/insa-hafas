@@ -1,12 +1,13 @@
 {
 	"name": "insa-hafas",
 	"description": "JavaScript client for the NASA/INSA HAFAS API.",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
 		"throttle.js",
-		"retry.js"
+		"retry.js",
+		"example.js"
 	],
 	"keywords": [
 		"nasa",
