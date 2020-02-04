@@ -28,5 +28,9 @@
 	},
 	"dependencies": {
 		"hafas-client": "^5.0.4"
+	},
+	"scripts": {
+		"smoke-test": "node example.js >/dev/null",
+		"prepublishOnly": "npm run smoke-test"
 	}
 }
