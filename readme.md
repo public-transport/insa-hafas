@@ -9,7 +9,7 @@ This project is actually a thin wrapper around [`hafas-client@5`](https://github
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/insa-hafas.svg)
 ![minimum Node.js version](https://img.shields.io/node/v/insa-hafas.svg)
 [![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
-[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst) [![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/insa-hafas.svg)](https://greenkeeper.io/)
 
 
 ## Installing
