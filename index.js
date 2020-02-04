@@ -3,6 +3,8 @@
 const createClient = require('hafas-client')
 const insaProfile = require('hafas-client/p/insa')
 
-const client = createClient(insaProfile)
+const createInsaHafas = (userAgent, opt = {}) => {
+	return createClient(insaProfile, userAgent, opt)
+}
 
-module.exports = client
+module.exports = createInsaHafas
