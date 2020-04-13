@@ -1,7 +1,7 @@
 {
 	"name": "insa-hafas",
 	"description": "JavaScript client for the NASA/INSA HAFAS API.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -13,16 +13,15 @@
 		"nasa",
 		"insa",
 		"sachsen-anhalt",
-		"germany",
 		"public transport",
 		"transit",
-		"api",
-		"hafas"
+		"hafas",
+		"hafas-client"
 	],
 	"author": "Jannis R <mail@jannisr.de>",
-	"homepage": "https://github.com/derhuerst/insa-hafas",
-	"repository": "derhuerst/insa-hafas",
-	"bugs": "https://github.com/derhuerst/insa-hafas/issues",
+	"homepage": "https://github.com/public-transport/insa-hafas",
+	"repository": "public-transport/insa-hafas",
+	"bugs": "https://github.com/public-transport/insa-hafas/issues",
 	"license": "ISC",
 	"engines": {
 		"node": ">=10"

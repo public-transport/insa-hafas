@@ -5,11 +5,11 @@
 This project is actually a thin wrapper around [`hafas-client@5`](https://github.com/public-transport/hafas-client/tree/5#hafas-client). [Its docs](https://github.com/public-transport/hafas-client/tree/5/docs) document the API in general.
 
 [![npm version](https://img.shields.io/npm/v/insa-hafas.svg)](https://www.npmjs.com/package/insa-hafas)
-[![build status](https://api.travis-ci.org/derhuerst/insa-hafas.svg?branch=master)](https://travis-ci.org/derhuerst/insa-hafas)
-![ISC-licensed](https://img.shields.io/github/license/derhuerst/insa-hafas.svg)
+[![build status](https://api.travis-ci.org/public-transport/insa-hafas.svg?branch=master)](https://travis-ci.org/public-transport/insa-hafas)
+![ISC-licensed](https://img.shields.io/github/license/public-transport/insa-hafas.svg)
 ![minimum Node.js version](https://img.shields.io/node/v/insa-hafas.svg)
-[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
-[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+[![chat on gitter](https://badges.gitter.im/public-transport/Lobby.svg)](https://gitter.im/public-transport/Lobby)
+[![support Jannis via GitHub Sponsors](https://img.shields.io/badge/support%20Jannis-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
 
 
 ## Installing
@@ -146,4 +146,4 @@ Check [`hafas-client`'s related libs](https://github.com/public-transport/hafas-
 
 ## Contributing
 
-If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/derhuerst/insa-hafas/issues).
+If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/public-transport/insa-hafas/issues).
